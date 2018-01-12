@@ -7,7 +7,7 @@
     "dxcli-dev-semantic-release": "bin/run"
   },
   "dependencies": {
-    "@dxcli/dev-commitmsg": "^0.0.2",
+    "@dxcli/dev-commitmsg": "^0.0.3",
     "@semantic-release/changelog": "^1.0.0",
     "@semantic-release/git": "^2.0.1",
     "@semantic-release/github": "^3.0.1",

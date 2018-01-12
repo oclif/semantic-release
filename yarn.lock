@@ -102,15 +102,14 @@
   dependencies:
     find-up "^2.1.0"
 
-"@dxcli/dev-commitmsg@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@dxcli/dev-commitmsg/-/dev-commitmsg-0.0.2.tgz#05e5b1224bd78309ef70d230b8562fdae9a76f29"
+"@dxcli/dev-commitmsg@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev-commitmsg/-/dev-commitmsg-0.0.3.tgz#8941971c9778b675dd14c407c1123b8bef397757"
   dependencies:
     "@commitlint/cli" "^6.0.1"
     "@commitlint/config-conventional" "^5.2.3"
     commitizen "^2.9.6"
     cz-conventional-changelog "^2.1.0"
-    husky "^0.14.3"
 
 "@marionebl/sander@^0.6.0":
   version "0.6.1"
