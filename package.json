@@ -14,6 +14,9 @@
     "@semantic-release/npm": "^2.6.1",
     "semantic-release": "^11.0.2"
   },
+  "devDependencies": {
+    "husky": "^0.14.3"
+  },
   "engines": {
     "node": ">= 8.0.0"
   },
