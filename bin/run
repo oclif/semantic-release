@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+set -e
+
+semantic-release -e @dxcli/dev-semantic-release
