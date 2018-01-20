@@ -1,3 +1,11 @@
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/dxcli/dev-semantic-release/compare/3f53b8ebaf7f1654463983ff7484faeb7709ce8b...v0.1.0) (2018-01-20)
+
+
+### Features
+
+* updated deps ([9ea136c](https://github.com/dxcli/dev-semantic-release/commit/9ea136c))
+
 <a name="0.0.3"></a>
 ## [0.0.3](https://github.com/dxcli/dev-semantic-release/compare/3c1e8669bc1b878051f6ba750d24374431150277...v0.0.3) (2018-01-13)
 
