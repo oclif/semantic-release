@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+
+const path = require('path')
+
+function typedoc() {
+  const sh = require('shelljs')
+
+  const version = process.argv[2]
+
+  sh.exec('git clone -b gh-pages $CIRCLE_REPOSITORY_URL gh-pages')
+  sh.exec('typedoc --out /tmp/docs src/index.ts --excludeNotExported --mode file')
+  sh.exec('rm -rf ./gh-pages/*')
+  sh.exec('mv /tmp/docs/* ./gh-pages')
+  sh.cd('gh-pages')
+  sh.exec('git add -A')
+  sh.exec(`git commit -m "updates from ${version} [skip ci]"`)
+  sh.exec('git push')
+}
+
+const pjson = require(path.join(process.cwd(), 'package.json'))
+if (pjson.devDependencies.typedoc) typedoc()

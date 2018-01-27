@@ -9,12 +9,15 @@
   "dependencies": {
     "@dxcli/dev-commitmsg": "^0.0.4",
     "@semantic-release/changelog": "^1.0.0",
-    "@semantic-release/git": "^2.0.2",
+    "@semantic-release/exec": "^1.0.2",
+    "@semantic-release/git": "^2.0.3",
     "@semantic-release/github": "^3.0.3",
     "@semantic-release/npm": "^2.6.4",
-    "semantic-release": "^12.2.2"
+    "semantic-release": "^12.2.5",
+    "shelljs": "^0.8.1"
   },
   "devDependencies": {
+    "@dxcli/dev": "^2.0.2",
     "husky": "^0.14.3"
   },
   "engines": {
@@ -22,12 +25,14 @@
   },
   "files": [
     "/bin",
+    "/scripts",
     "/release.config.js"
   ],
   "license": "MIT",
   "main": "release.config.js",
   "repository": "dxcli/dev-semantic-release",
   "scripts": {
-    "commitmsg": "dxcli-dev-commitmsg"
+    "commitmsg": "dxcli-dev-commitmsg",
+    "precommit": "eslint ."
   }
 }

@@ -1,3 +1,5 @@
+const path = require('path')
+
 module.exports = {
   verifyConditions: [
     '@semantic-release/changelog',
@@ -6,9 +8,16 @@ module.exports = {
     '@semantic-release/github',
   ],
   publish: [
+    {
+      path: '@semantic-release/exec',
+      cmd: path.join(__dirname, 'scripts/typedoc'),
+    },
     '@semantic-release/changelog',
     '@semantic-release/npm',
-    '@semantic-release/git',
+    {
+      path: '@semantic-release/git',
+      assets: ['package.json', 'CHANGELOG.md'],
+    },
     '@semantic-release/github',
   ],
 }

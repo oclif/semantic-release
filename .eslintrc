@@ -1,0 +1,6 @@
+{
+  "extends": "dxcli",
+  "rules": {
+    "node/shebang": false
+  }
+}
