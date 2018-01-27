@@ -1,3 +1,11 @@
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/dxcli/dev-semantic-release/compare/9ea136cfca9b011750c59cb6a18b9c464ce41d1a...v0.2.0) (2018-01-27)
+
+
+### Features
+
+* added typedoc script ([3a9f97e](https://github.com/dxcli/dev-semantic-release/commit/3a9f97e))
+
 <a name="0.1.0"></a>
 # [0.1.0](https://github.com/dxcli/dev-semantic-release/compare/3f53b8ebaf7f1654463983ff7484faeb7709ce8b...v0.1.0) (2018-01-20)
 
