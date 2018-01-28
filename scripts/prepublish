@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 
 const path = require('path')
+const sh = require('shelljs')
+const version = process.argv[2]
+const pjson = require(path.join(process.cwd(), 'package.json'))
 
 function typedoc() {
-  const sh = require('shelljs')
-
-  const version = process.argv[2]
-
+  if (!pjson.devDependencies.typedoc) return
   sh.exec('git clone -b gh-pages $CIRCLE_REPOSITORY_URL gh-pages')
   sh.exec('typedoc --out /tmp/docs src/index.ts --excludeNotExported --mode file')
   sh.exec('rm -rf ./gh-pages/*')
@@ -17,5 +17,10 @@ function typedoc() {
   sh.exec('git push')
 }
 
-const pjson = require(path.join(process.cwd(), 'package.json'))
-if (pjson.devDependencies.typedoc) typedoc()
+function prepublish() {
+  if (!pjson.devDependencies.prepublishOnly) return
+  sh.exec('yarn run prepublishOnly')
+}
+
+typedoc()
+prepublish()

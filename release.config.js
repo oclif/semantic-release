@@ -10,7 +10,7 @@ module.exports = {
   publish: [
     {
       path: '@semantic-release/exec',
-      cmd: path.join(__dirname, 'scripts/typedoc'),
+      cmd: path.join(__dirname, 'scripts/prepublish'),
     },
     '@semantic-release/changelog',
     '@semantic-release/npm',
