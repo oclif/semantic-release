@@ -5,7 +5,7 @@ const exec = require('./exec')
 const pjson = require(path.join(process.cwd(), 'package.json'))
 
 function prepublish() {
-  if (!pjson.devDependencies.prepublishOnly) return
+  if (!pjson.scripts.prepublishOnly) return
   exec('yarn', ['run', 'prepublishOnly'])
 }
 
