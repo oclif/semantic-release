@@ -5,7 +5,7 @@
   "author": "Jeff Dickey @jdxcode",
   "bin": {
     "dxcli-semantic-release": "bin/run",
-    "dxcli-commitlint": "bin/commitlin"
+    "dxcli-commitlint": "bin/commitlint"
   },
   "dependencies": {
     "@commitlint/cli": "^6.0.2",
