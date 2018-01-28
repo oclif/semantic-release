@@ -1,3 +1,11 @@
+<a name="0.3.1"></a>
+## [0.3.1](https://github.com/dxcli/semantic-release/compare/a78fe15df18235e437f4008157cb1c70c52e9f4c...v0.3.1) (2018-01-28)
+
+
+### Bug Fixes
+
+* move prepublishOnly to happen before everything ([646fa83](https://github.com/dxcli/semantic-release/commit/646fa83))
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/dxcli/semantic-release/compare/8c692d3ac0ff93ee2e72f0a2d88cd76f4cf3e2ab...v0.3.0) (2018-01-28)
 
