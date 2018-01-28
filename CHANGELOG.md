@@ -1,3 +1,12 @@
+<a name="0.2.1"></a>
+## [0.2.1](https://github.com/dxcli/semantic-release/compare/v0.2.0...v0.2.1) (2018-01-28)
+
+
+### Bug Fixes
+
+* added commitlint script ([905b94c](https://github.com/dxcli/semantic-release/commit/905b94c))
+* bump semantic-release ([3fdcd56](https://github.com/dxcli/semantic-release/commit/3fdcd56))
+
 <a name="0.2.0"></a>
 # [0.2.0](https://github.com/dxcli/dev-semantic-release/compare/9ea136cfca9b011750c59cb6a18b9c464ce41d1a...v0.2.0) (2018-01-27)
 
