@@ -2,4 +2,4 @@
 
 set -e
 
-./node_modules/.bin/semantic-release -e @dxcli/dev-semantic-release "$@"
+semantic-release -e @dxcli/semantic-release "$@"
