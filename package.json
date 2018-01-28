@@ -1,7 +1,7 @@
 {
   "name": "@dxcli/semantic-release",
   "description": "semantic-release configuration for dxcli",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Jeff Dickey @jdxcode",
   "bin": {
     "dxcli-semantic-release": "bin/run",

@@ -1,3 +1,11 @@
+<a name="0.2.3"></a>
+## [0.2.3](https://github.com/dxcli/semantic-release/compare/v0.2.2...v0.2.3) (2018-01-28)
+
+
+### Bug Fixes
+
+* downgrade semantic-release ([6ec734a](https://github.com/dxcli/semantic-release/commit/6ec734a))
+
 <a name="0.2.2"></a>
 ## [0.2.2](https://github.com/dxcli/semantic-release/compare/v0.2.1...v0.2.2) (2018-01-28)
 
