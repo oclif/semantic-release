@@ -15,7 +15,7 @@
     "@semantic-release/git": "^3.0.0",
     "@semantic-release/github": "^4.0.0",
     "@semantic-release/npm": "^3.0.0",
-    "semantic-release": "^12.4.1",
+    "semantic-release": "^13.0.2",
     "shelljs": "^0.8.1"
   },
   "devDependencies": {
