@@ -5,6 +5,8 @@ const sh = require('shelljs')
 const version = process.argv[2]
 const pjson = require(path.join(process.cwd(), 'package.json'))
 
+sh.set('-ev')
+
 function typedoc() {
   if (!pjson.devDependencies.typedoc) return
   sh.exec('git clone -b gh-pages $CIRCLE_REPOSITORY_URL gh-pages')
@@ -17,10 +19,4 @@ function typedoc() {
   sh.exec('git push')
 }
 
-function prepublish() {
-  if (!pjson.devDependencies.prepublishOnly) return
-  sh.exec('yarn run prepublishOnly')
-}
-
 typedoc()
-prepublish()
