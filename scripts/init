@@ -1,14 +1,12 @@
 #!/usr/bin/env node
 
 const path = require('path')
-const sh = require('shelljs')
+const exec = require('./exec')
 const pjson = require(path.join(process.cwd(), 'package.json'))
-
-sh.set('-ev')
 
 function prepublish() {
   if (!pjson.devDependencies.prepublishOnly) return
-  sh.exec('yarn run prepublishOnly')
+  exec('yarn', ['run', 'prepublishOnly'])
 }
 
 prepublish()
