@@ -1,3 +1,11 @@
+<a name="0.2.4"></a>
+## [0.2.4](https://github.com/dxcli/semantic-release/compare/6ec734aed6de3d98f02127afd9f83fa83d0fc02a...v0.2.4) (2018-01-28)
+
+
+### Bug Fixes
+
+* fixed bin ([8c692d3](https://github.com/dxcli/semantic-release/commit/8c692d3))
+
 <a name="0.2.3"></a>
 ## [0.2.3](https://github.com/dxcli/semantic-release/compare/v0.2.2...v0.2.3) (2018-01-28)
 
