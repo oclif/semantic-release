@@ -1,3 +1,11 @@
+<a name="0.2.2"></a>
+## [0.2.2](https://github.com/dxcli/semantic-release/compare/v0.2.1...v0.2.2) (2018-01-28)
+
+
+### Bug Fixes
+
+* use defaults from git plugin ([4a4bcf9](https://github.com/dxcli/semantic-release/commit/4a4bcf9))
+
 <a name="0.2.1"></a>
 ## [0.2.1](https://github.com/dxcli/semantic-release/compare/v0.2.0...v0.2.1) (2018-01-28)
 
