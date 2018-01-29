@@ -1,3 +1,16 @@
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/dxcli/semantic-release/compare/153132c3c9ebbf96f31712755d0aafecfb50bb02...v1.0.0) (2018-01-29)
+
+
+### Features
+
+* release 1.0 ([6f34fc0](https://github.com/dxcli/semantic-release/commit/6f34fc0))
+
+
+### BREAKING CHANGES
+
+* no longer included in generator's devDependencies
+
 <a name="0.3.3"></a>
 ## [0.3.3](https://github.com/dxcli/semantic-release/compare/f5b8bd9599239f76007a45aabb50618f10dd1c82...v0.3.3) (2018-01-28)
 
