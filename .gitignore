@@ -1,1 +1,4 @@
+*-debug.log
+*-error.log
 /node_modules
+/tmp
