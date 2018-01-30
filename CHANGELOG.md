@@ -1,3 +1,11 @@
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/dxcli/semantic-release/compare/6f34fc0aafdecac7b72a068232ec0c952edf93e6...v1.0.1) (2018-01-30)
+
+
+### Bug Fixes
+
+* ran generator ([1c11669](https://github.com/dxcli/semantic-release/commit/1c11669))
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/dxcli/semantic-release/compare/153132c3c9ebbf96f31712755d0aafecfb50bb02...v1.0.0) (2018-01-29)
 
