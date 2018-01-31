@@ -1,3 +1,11 @@
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/anycli/semantic-release/compare/f082b10c7d4ca1001ecea231468fbd5022a93d94...v1.0.2) (2018-01-31)
+
+
+### Bug Fixes
+
+* testing release ([f5ef3af](https://github.com/anycli/semantic-release/commit/f5ef3af))
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/dxcli/semantic-release/compare/6f34fc0aafdecac7b72a068232ec0c952edf93e6...v1.0.1) (2018-01-30)
 
