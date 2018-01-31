@@ -1,3 +1,11 @@
+<a name="1.0.3"></a>
+## [1.0.3](https://github.com/anycli/semantic-release/compare/f5ef3af13a46a8478ce3a6f608960e40cb713007...v1.0.3) (2018-01-31)
+
+
+### Bug Fixes
+
+* remove unused peer dep ([e0e20ec](https://github.com/anycli/semantic-release/commit/e0e20ec))
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/anycli/semantic-release/compare/f082b10c7d4ca1001ecea231468fbd5022a93d94...v1.0.2) (2018-01-31)
 
