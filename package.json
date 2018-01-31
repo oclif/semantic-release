@@ -35,9 +35,6 @@
   ],
   "license": "MIT",
   "main": "release.config.js",
-  "peerDependencies": {
-    "husky": "^0.14.3"
-  },
   "repository": "anycli/semantic-release",
   "scripts": {
     "commitmsg": "commitlint -x @commitlint/config-conventional -e $GIT_PARAMS",
