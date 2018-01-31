@@ -40,7 +40,7 @@ jobs:
 
 workflows:
   version: 2
-  "@dxcli/semantic-release":
+  "@anycli/semantic-release":
     jobs:
       - node-latest
       - node-8

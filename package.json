@@ -1,9 +1,9 @@
 {
-  "name": "@dxcli/semantic-release",
-  "description": "semantic-release configuration for dxcli",
-  "version": "1.0.1",
+  "name": "@anycli/semantic-release",
+  "description": "semantic-release configuration for anycli",
+  "version": "1.0.0",
   "author": "Jeff Dickey @jdxcode",
-  "bugs": "https://github.com/dxcli/semantic-release/issues",
+  "bugs": "https://github.com/anycli/semantic-release/issues",
   "dependencies": {
     "@semantic-release/changelog": "^1.0.0",
     "@semantic-release/exec": "^1.0.2",
@@ -17,7 +17,7 @@
     "@commitlint/cli": "^6.0.2",
     "@commitlint/config-conventional": "^6.0.2",
     "eslint": "^4.16.0",
-    "eslint-config-dxcli": "^1.2.1",
+    "eslint-config-anycli": "^1.2.1",
     "husky": "^0.14.3",
     "nps": "^5.7.1",
     "nps-utils": "^1.5.0"
@@ -29,16 +29,16 @@
     "/scripts",
     "/release.config.js"
   ],
-  "homepage": "https://github.com/dxcli/semantic-release",
+  "homepage": "https://github.com/anycli/semantic-release",
   "keywords": [
-    "dxcli"
+    "anycli"
   ],
   "license": "MIT",
   "main": "release.config.js",
   "peerDependencies": {
     "husky": "^0.14.3"
   },
-  "repository": "dxcli/semantic-release",
+  "repository": "anycli/semantic-release",
   "scripts": {
     "commitmsg": "commitlint -x @commitlint/config-conventional -e $GIT_PARAMS",
     "precommit": "nps lint -l warn",

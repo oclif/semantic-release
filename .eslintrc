@@ -1,5 +1,5 @@
 {
-  "extends": "dxcli",
+  "extends": "anycli",
   "rules": {
     "node/shebang": false
   }
