@@ -2,7 +2,7 @@ const path = require('path')
 
 const script = script => ({
   path: '@semantic-release/exec',
-  cmd: path.join(__dirname, 'scripts', script),
+  cmd: `${path.join(__dirname, 'scripts', script)} \${nextRelease.version}`,
 })
 
 module.exports = {

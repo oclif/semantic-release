@@ -3,10 +3,12 @@
 const path = require('path')
 const exec = require('./exec')
 const pjson = require(path.join(process.cwd(), 'package.json'))
+const version = process.argv[2]
 
 function prepublish() {
   if (!pjson.scripts.prepublishOnly) return
-  exec('yarn', ['run', 'prepublishOnly'])
+  exec('yarn', ['run', 'prepublishOnly', version])
+
 }
 
 prepublish()
