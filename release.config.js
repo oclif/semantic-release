@@ -7,7 +7,6 @@ const script = script => ({
 
 module.exports = {
   verifyConditions: [
-    script('init'),
     '@semantic-release/changelog',
     '@semantic-release/npm',
     '@semantic-release/git',
