@@ -7,8 +7,8 @@ const version = process.argv[2]
 
 function prepublish() {
   if (!pjson.scripts.prepublishOnly) return
-  exec('yarn', ['run', 'prepublishOnly', version])
-
+  process.env.ANYCLI_NEXT_VERSION = version
+  exec('yarn', ['run', 'prepublishOnly'])
 }
 
 prepublish()
