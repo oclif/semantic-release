@@ -1,3 +1,17 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/anycli/semantic-release/compare/e0e20eca671cd5b041305d2bf4bad8042b83975d...v1.1.0) (2018-02-02)
+
+
+### Bug Fixes
+
+* fixed prepublishg ([aa42959](https://github.com/anycli/semantic-release/commit/aa42959))
+* set env var for next version ([b720a2a](https://github.com/anycli/semantic-release/commit/b720a2a))
+
+
+### Features
+
+* pass version to prepublish ([d5d90e9](https://github.com/anycli/semantic-release/commit/d5d90e9))
+
 <a name="1.0.3"></a>
 ## [1.0.3](https://github.com/anycli/semantic-release/compare/f5ef3af13a46a8478ce3a6f608960e40cb713007...v1.0.3) (2018-01-31)
 
