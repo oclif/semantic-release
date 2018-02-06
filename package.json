@@ -1,7 +1,7 @@
 {
   "name": "@anycli/semantic-release",
   "description": "semantic-release configuration for anycli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/anycli/semantic-release/issues",
   "dependencies": {

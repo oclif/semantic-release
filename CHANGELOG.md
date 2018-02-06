@@ -1,3 +1,11 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/anycli/semantic-release/compare/aa42959250c2b2febf6207c9354c0d1e39782043...v1.1.1) (2018-02-06)
+
+
+### Bug Fixes
+
+* add docs to build ([7722db3](https://github.com/anycli/semantic-release/commit/7722db3))
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/anycli/semantic-release/compare/e0e20eca671cd5b041305d2bf4bad8042b83975d...v1.1.0) (2018-02-02)
 
