@@ -19,7 +19,7 @@ function typedoc() {
 
 function prepublish() {
   if (!pjson.scripts.prepublishOnly) return
-  process.env.ANYCLI_NEXT_VERSION = version
+  process.env.OCLIF_NEXT_VERSION = version
   exec('yarn', ['run', 'prepublishOnly'])
 }
 

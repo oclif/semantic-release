@@ -1,5 +1,5 @@
 {
-  "extends": "anycli",
+  "extends": "oclif",
   "rules": {
     "node/shebang": false
   }

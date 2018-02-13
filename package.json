@@ -1,9 +1,9 @@
 {
-  "name": "@anycli/semantic-release",
-  "description": "semantic-release configuration for anycli",
+  "name": "@oclif/semantic-release",
+  "description": "semantic-release configuration for oclif",
   "version": "1.1.1",
   "author": "Jeff Dickey @jdxcode",
-  "bugs": "https://github.com/anycli/semantic-release/issues",
+  "bugs": "https://github.com/oclif/semantic-release/issues",
   "dependencies": {
     "@semantic-release/changelog": "^1.0.0",
     "@semantic-release/exec": "^1.0.2",
@@ -14,13 +14,8 @@
     "semantic-release": "^12.2.5"
   },
   "devDependencies": {
-    "@commitlint/cli": "^6.0.2",
-    "@commitlint/config-conventional": "^6.0.2",
     "eslint": "^4.16.0",
-    "eslint-config-anycli": "^1.2.1",
-    "husky": "^0.14.3",
-    "nps": "^5.7.1",
-    "nps-utils": "^1.5.0"
+    "eslint-config-oclif": "^1.2.1"
   },
   "engines": {
     "node": ">= 8.0.0"
@@ -29,16 +24,11 @@
     "/scripts",
     "/release.config.js"
   ],
-  "homepage": "https://github.com/anycli/semantic-release",
+  "homepage": "https://github.com/oclif/semantic-release",
   "keywords": [
-    "anycli"
+    "oclif"
   ],
   "license": "MIT",
   "main": "release.config.js",
-  "repository": "anycli/semantic-release",
-  "scripts": {
-    "commitmsg": "commitlint -x @commitlint/config-conventional -e $GIT_PARAMS",
-    "precommit": "nps lint -l warn",
-    "test": "nps test -l warn"
-  }
+  "repository": "oclif/semantic-release"
 }
