@@ -23,5 +23,7 @@ function prepublish() {
   exec('yarn', ['run', 'prepublishOnly'])
 }
 
+pjson.scripts = pjson.scripts || {}
+
 typedoc()
 prepublish()
