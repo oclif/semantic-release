@@ -1,3 +1,11 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/oclif/semantic-release/compare/db6a5fc89e58fc33dfa0875c6fe3abcc7a6afbf7...v1.1.2) (2018-02-13)
+
+
+### Bug Fixes
+
+* default scripts to empty object ([979f9b4](https://github.com/oclif/semantic-release/commit/979f9b4))
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/anycli/semantic-release/compare/aa42959250c2b2febf6207c9354c0d1e39782043...v1.1.1) (2018-02-06)
 
