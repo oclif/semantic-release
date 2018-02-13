@@ -30,5 +30,8 @@
   ],
   "license": "MIT",
   "main": "release.config.js",
-  "repository": "oclif/semantic-release"
+  "repository": "oclif/semantic-release",
+  "scripts": {
+    "test": "eslint . scripts/*"
+  }
 }
