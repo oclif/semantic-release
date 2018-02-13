@@ -1,3 +1,11 @@
+<a name="1.1.3"></a>
+## [1.1.3](https://github.com/oclif/semantic-release/compare/3129a964e23103e79d202fd3fe609d9c39e55060...v1.1.3) (2018-02-13)
+
+
+### Bug Fixes
+
+* add linter ([2de266a](https://github.com/oclif/semantic-release/commit/2de266a))
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/oclif/semantic-release/compare/db6a5fc89e58fc33dfa0875c6fe3abcc7a6afbf7...v1.1.2) (2018-02-13)
 
