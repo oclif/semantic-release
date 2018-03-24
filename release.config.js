@@ -12,7 +12,7 @@ module.exports = {
     '@semantic-release/git',
     '@semantic-release/github',
   ],
-  publish: [
+  prepare: [
     script('prepublish'),
     '@semantic-release/changelog',
     '@semantic-release/npm',
@@ -20,6 +20,5 @@ module.exports = {
       path: '@semantic-release/git',
       assets: ['package.json', 'CHANGELOG.md', 'README.md', 'docs'],
     },
-    '@semantic-release/github',
   ],
 }
