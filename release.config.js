@@ -4,7 +4,6 @@ const script = script => ({
 })
 
 module.exports = {
-  branch: 'dev',
   verifyConditions: [
     '@semantic-release/changelog',
     '@semantic-release/npm',
