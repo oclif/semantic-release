@@ -11,6 +11,7 @@ module.exports = {
     '@semantic-release/github',
   ],
   prepare: [
+    script('preversion'),
     script('prepublishOnly'),
     script('prepack'),
     '@semantic-release/changelog',
