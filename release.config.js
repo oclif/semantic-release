@@ -1,11 +1,10 @@
-const path = require('path')
-
 const script = script => ({
-  path: '@semantic-release/exec',
-  cmd: `${path.join(__dirname, 'scripts', script)} \${nextRelease.version}`,
+  path: './scripts/lifecycle',
+  script,
 })
 
 module.exports = {
+  branch: 'dev',
   verifyConditions: [
     '@semantic-release/changelog',
     '@semantic-release/npm',
@@ -13,13 +12,18 @@ module.exports = {
     '@semantic-release/github',
   ],
   prepare: [
-    script('prepublish'),
+    script('preversion'),
+    script('version'),
+    script('postversion'),
+    script('prepublishOnly'),
+    script('prepack'),
     '@semantic-release/changelog',
     '@semantic-release/npm',
     {
       path: '@semantic-release/git',
       assets: ['package.json', 'CHANGELOG.md', 'README.md', 'docs'],
     },
+    script('postpack'),
   ],
   publish: [
     '@semantic-release/npm',
