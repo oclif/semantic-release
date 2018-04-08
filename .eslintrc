@@ -1,7 +1,6 @@
 {
   "extends": "oclif",
   "rules": {
-    "no-console": 0,
     "node/shebang": false
   }
 }
