@@ -1,3 +1,24 @@
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/oclif/semantic-release/compare/v2.1.0...v3.0.0) (2018-04-08)
+
+
+### Bug Fixes
+
+* added fs-extra ([8766343](https://github.com/oclif/semantic-release/commit/8766343))
+* build from master ([64864f4](https://github.com/oclif/semantic-release/commit/64864f4))
+* call scripts directly so version scripts dont run more than once ([1f8ad23](https://github.com/oclif/semantic-release/commit/1f8ad23))
+* fixed script order ([09663a9](https://github.com/oclif/semantic-release/commit/09663a9))
+
+
+### Features
+
+* added all lifecycle scripts ([03545d5](https://github.com/oclif/semantic-release/commit/03545d5))
+
+
+### BREAKING CHANGES
+
+* this changes the ordering of things
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/oclif/semantic-release/compare/v2.0.0...v2.1.0) (2018-04-08)
 

@@ -1,7 +1,7 @@
 {
   "name": "@oclif/semantic-release",
   "description": "semantic-release configuration for oclif",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/oclif/semantic-release/issues",
   "dependencies": {
