@@ -1,3 +1,11 @@
+<a name="3.0.2"></a>
+## [3.0.2](https://github.com/oclif/semantic-release/compare/v3.0.1...v3.0.2) (2018-04-08)
+
+
+### Bug Fixes
+
+* show debug output ([f837ca7](https://github.com/oclif/semantic-release/commit/f837ca7))
+
 <a name="3.0.1"></a>
 ## [3.0.1](https://github.com/oclif/semantic-release/compare/v3.0.0...v3.0.1) (2018-04-08)
 
