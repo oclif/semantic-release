@@ -13,16 +13,16 @@ module.exports = {
   ],
   prepare: [
     script('preversion'),
-    script('version'),
-    script('postversion'),
     script('prepublishOnly'),
     script('prepack'),
     '@semantic-release/changelog',
+    script('version'),
     '@semantic-release/npm',
     {
       path: '@semantic-release/git',
       assets: ['package.json', 'CHANGELOG.md', 'README.md', 'docs'],
     },
+    script('postversion'),
     script('postpack'),
   ],
   publish: [
