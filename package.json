@@ -35,9 +35,9 @@
     "preversion": "echo preversion",
     "version": "echo version",
     "postversion": "echo postversion",
+    "prepublishOnly": "echo prepublishOnly",
     "prepack": "echo prepack",
     "postpack": "echo postpack",
-    "prepublishOnly": "echo prepublishOnly",
     "postpublish": "echo postpublish",
     "test": "eslint . scripts/*"
   }
