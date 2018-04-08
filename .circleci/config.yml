@@ -15,7 +15,7 @@ jobs:
             - v0-yarn-{{checksum ".circleci/config.yml"}}-master-
       - run: yarn
       - run: yarn test
-      - run: .circleci/release
+      - run: ./node_modules/.bin/semantic-release
       - save_cache: &save_cache
           key: v0-yarn-{{checksum ".circleci/config.yml"}}-{{ .Branch }}-{{checksum "yarn.lock"}}
           paths:
