@@ -8,10 +8,10 @@
     "@semantic-release/changelog": "^2.0.1",
     "@semantic-release/exec": "^2.2.3",
     "@semantic-release/git": "^4.0.1",
-    "@semantic-release/github": "^4.2.8",
-    "@semantic-release/npm": "^3.2.2",
+    "@semantic-release/github": "^4.2.11",
+    "@semantic-release/npm": "^3.2.4",
     "execa": "^0.10.0",
-    "semantic-release": "^15.1.4"
+    "semantic-release": "^15.1.5"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
