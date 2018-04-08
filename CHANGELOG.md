@@ -1,3 +1,21 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/oclif/semantic-release/compare/v2.0.1...v2.1.0) (2018-04-08)
+
+
+### Bug Fixes
+
+* add org-global ([2d5692f](https://github.com/oclif/semantic-release/commit/2d5692f))
+* bump deps ([449be3c](https://github.com/oclif/semantic-release/commit/449be3c))
+* cleanup circle scripts ([bd42ee6](https://github.com/oclif/semantic-release/commit/bd42ee6))
+* remove prepublish ([57a4ccf](https://github.com/oclif/semantic-release/commit/57a4ccf))
+* remove prepublish ([524c56e](https://github.com/oclif/semantic-release/commit/524c56e))
+* testing release ([9aa0740](https://github.com/oclif/semantic-release/commit/9aa0740))
+
+
+### Features
+
+* added more scripts ([bd9f8de](https://github.com/oclif/semantic-release/commit/bd9f8de))
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/oclif/semantic-release/compare/3129a964e23103e79d202fd3fe609d9c39e55060...v1.1.3) (2018-02-13)
 
