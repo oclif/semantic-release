@@ -1,5 +1,5 @@
 {
-  "name": "@oclif/semantic-release-dev",
+  "name": "@oclif/semantic-release",
   "description": "semantic-release configuration for oclif",
   "version": "2.1.0",
   "author": "Jeff Dickey @jdxcode",
