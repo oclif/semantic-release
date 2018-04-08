@@ -1,3 +1,11 @@
+<a name="3.0.1"></a>
+## [3.0.1](https://github.com/oclif/semantic-release/compare/v3.0.0...v3.0.1) (2018-04-08)
+
+
+### Bug Fixes
+
+* added preversion ([a50eec4](https://github.com/oclif/semantic-release/commit/a50eec4))
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/oclif/semantic-release/compare/v2.1.0...v3.0.0) (2018-04-08)
 
