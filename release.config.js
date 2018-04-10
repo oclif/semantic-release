@@ -23,11 +23,11 @@ module.exports = {
       assets: ['package.json', 'CHANGELOG.md', 'README.md', 'docs'],
     },
     script('postversion'),
-    script('postpack'),
   ],
   publish: [
     '@semantic-release/npm',
     '@semantic-release/github',
+    script('postpack'),
     script('postpublish'),
   ],
 }
