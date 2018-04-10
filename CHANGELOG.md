@@ -1,3 +1,11 @@
+<a name="3.0.4"></a>
+## [3.0.4](https://github.com/oclif/semantic-release/compare/v3.0.3...v3.0.4) (2018-04-10)
+
+
+### Bug Fixes
+
+* postpack ([cf64b93](https://github.com/oclif/semantic-release/commit/cf64b93))
+
 <a name="3.0.3"></a>
 ## [3.0.3](https://github.com/oclif/semantic-release/compare/v3.0.2...v3.0.3) (2018-04-08)
 
