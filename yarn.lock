@@ -87,9 +87,9 @@
     parse-github-url "^1.0.1"
     url-join "^4.0.0"
 
-"@semantic-release/github@^4.2.16":
-  version "4.2.16"
-  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-4.2.16.tgz#4a6458198ebd3dcdb344e220e3d68af94d585cca"
+"@semantic-release/github@^4.2.17":
+  version "4.2.17"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-4.2.17.tgz#1d3f465b4bdbc57ecfcb55aefdc554804a8cbc76"
   dependencies:
     "@octokit/rest" "^15.2.0"
     "@semantic-release/error" "^2.2.0"
@@ -120,9 +120,9 @@
     read-pkg "^3.0.0"
     registry-auth-token "^3.3.1"
 
-"@semantic-release/npm@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-3.3.0.tgz#01ff970b840adad6dfcaa3f88e835e90b33d29ca"
+"@semantic-release/npm@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-3.3.1.tgz#0b08b5a691144e9311e7ebfce5b94b13387d9b98"
   dependencies:
     "@semantic-release/error" "^2.2.0"
     aggregate-error "^1.0.0"
@@ -132,7 +132,7 @@
     fs-extra "^6.0.0"
     lodash "^4.17.4"
     nerf-dart "^1.0.0"
-    normalize-url "^2.0.1"
+    normalize-url "^3.0.0"
     parse-json "^4.0.0"
     read-pkg "^3.0.0"
     registry-auth-token "^3.3.1"
@@ -780,9 +780,9 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-oclif@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-oclif/-/eslint-config-oclif-1.5.0.tgz#9c41a7d94493e06c1692554b3da329a96064cec9"
+eslint-config-oclif@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-oclif/-/eslint-config-oclif-1.5.1.tgz#e8c5f31b8bb7383a666a506c3f6e91dbc861ecc5"
   dependencies:
     eslint-config-xo-space "^0.18.0"
     eslint-plugin-mocha "^5.0.0"
@@ -1956,6 +1956,10 @@ normalize-url@^2.0.1:
     prepend-http "^2.0.0"
     query-string "^5.0.1"
     sort-keys "^2.0.0"
+
+normalize-url@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.0.1.tgz#2cff7f20468c75e0e968552b7caac77a51ebcae6"
 
 npm-run-path@^2.0.0, npm-run-path@^2.0.2:
   version "2.0.2"
