@@ -13,7 +13,8 @@
     "execa": "^0.10.0",
     "fs-extra": "^6.0.1",
     "npm-run-path": "^2.0.2",
-    "semantic-release": "^15.5.0"
+    "semantic-release": "^15.5.0",
+    "snyk": "^1.90.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
@@ -41,6 +42,9 @@
     "prepack": "echo prepack",
     "postpack": "echo postpack",
     "postpublish": "echo postpublish",
-    "test": "eslint . scripts/*"
-  }
+    "test": "eslint . scripts/*",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
