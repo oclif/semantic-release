@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/oclif/semantic-release/compare/v3.0.7...v3.1.0) (2018-08-17)
+
+
+### Features
+
+* bump semantic-release ([b1bec30](https://github.com/oclif/semantic-release/commit/b1bec30))
+
 <a name="3.0.7"></a>
 ## [3.0.7](https://github.com/oclif/semantic-release/compare/v3.0.6...v3.0.7) (2018-05-31)
 
