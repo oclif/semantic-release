@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/oclif/semantic-release/compare/v3.1.0...v3.1.1) (2018-09-14)
+
+
+### Bug Fixes
+
+* updated deps ([9b714de](https://github.com/oclif/semantic-release/commit/9b714de))
+
 # [3.1.0](https://github.com/oclif/semantic-release/compare/v3.0.7...v3.1.0) (2018-08-17)
 
 
