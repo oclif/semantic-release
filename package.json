@@ -7,7 +7,7 @@
   "dependencies": {
     "@semantic-release/changelog": "^3.0.1",
     "@semantic-release/exec": "^3.3.1",
-    "@semantic-release/git": "^7.0.5",
+    "@semantic-release/git": "^7.0.10",
     "@semantic-release/github": "^5.2.6",
     "@semantic-release/npm": "^5.1.2",
     "execa": "^1.0.0",
