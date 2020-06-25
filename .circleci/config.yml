@@ -9,9 +9,8 @@ jobs:
       - checkout
       - restore_cache: &restore_cache
           keys:
-            - v0-yarn-{{checksum ".circleci/config.yml"}}-{{ .Branch }}-{{checksum "yarn.lock"}}
-            - v0-yarn-{{checksum ".circleci/config.yml"}}-{{ .Branch }}-
-            - v0-yarn-{{checksum ".circleci/config.yml"}}-master-
+            - v1-npm-{{checksum ".circleci/config.yml"}}-{{checksum "yarn.lock"}}
+            - v1-npm-{{checksum ".circleci/config.yml"}}
       - run: yarn
       - run: yarn test
   node-12:
@@ -29,7 +28,7 @@ jobs:
       - restore_cache: *restore_cache
       - run: ./node_modules/.bin/semantic-release
       - save_cache: &save_cache
-          key: v0-yarn-{{checksum ".circleci/config.yml"}}-{{ .Branch }}-{{checksum "yarn.lock"}}
+          key: v1-npm-{{checksum ".circleci/config.yml"}}-{{checksum "yarn.lock"}}
           paths:
             - ~/cli/node_modules
             - /usr/local/share/.cache/yarn
