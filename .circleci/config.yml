@@ -24,15 +24,10 @@ jobs:
   release:
     <<: *test
     steps:
+      - checkout
       - add_ssh_keys
-      - restore_cache: *restore_cache
+      - run: yarn
       - run: ./node_modules/.bin/semantic-release
-      - save_cache: &save_cache
-          key: v1-npm-{{checksum ".circleci/config.yml"}}-{{checksum "yarn.lock"}}
-          paths:
-            - ~/cli/node_modules
-            - /usr/local/share/.cache/yarn
-            - /usr/local/share/.config/yarn
 
 workflows:
   version: 2
