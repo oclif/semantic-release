@@ -1,3 +1,10 @@
+## [3.1.3](https://github.com/oclif/semantic-release/compare/v3.1.2...v3.1.3) (2020-06-26)
+
+
+### Bug Fixes
+
+* do not run step scripts/update-version.js ([1cff2cb](https://github.com/oclif/semantic-release/commit/1cff2cb))
+
 ## [3.1.2](https://github.com/oclif/semantic-release/compare/v3.1.1...v3.1.2) (2020-06-26)
 
 
