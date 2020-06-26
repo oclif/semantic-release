@@ -5,29 +5,6 @@
 
 * do not run step scripts/update-version.js ([1cff2cb](https://github.com/oclif/semantic-release/commit/1cff2cb))
 
-## [3.1.2](https://github.com/oclif/semantic-release/compare/v3.1.1...v3.1.2) (2020-06-26)
-
-
-### Bug Fixes
-
-* circle caching ([50add18](https://github.com/oclif/semantic-release/commit/50add18))
-* circle releasing ([#41](https://github.com/oclif/semantic-release/issues/41)) ([1aa699c](https://github.com/oclif/semantic-release/commit/1aa699c))
-* execa.sync ([e6b6b48](https://github.com/oclif/semantic-release/commit/e6b6b48))
-* updated deps ([98418e7](https://github.com/oclif/semantic-release/commit/98418e7))
-* use execa.command & node:12 ([1bee757](https://github.com/oclif/semantic-release/commit/1bee757))
-* use execa.commandSync ([eb0057f](https://github.com/oclif/semantic-release/commit/eb0057f))
-
-## [3.1.2](https://github.com/oclif/semantic-release/compare/v3.1.1...v3.1.2) (2020-06-26)
-
-
-### Bug Fixes
-
-* circle caching ([50add18](https://github.com/oclif/semantic-release/commit/50add18))
-* circle releasing ([#41](https://github.com/oclif/semantic-release/issues/41)) ([1aa699c](https://github.com/oclif/semantic-release/commit/1aa699c))
-* execa.sync ([e6b6b48](https://github.com/oclif/semantic-release/commit/e6b6b48))
-* updated deps ([98418e7](https://github.com/oclif/semantic-release/commit/98418e7))
-* use execa.command & node:12 ([1bee757](https://github.com/oclif/semantic-release/commit/1bee757))
-* use execa.commandSync ([eb0057f](https://github.com/oclif/semantic-release/commit/eb0057f))
 
 ## [3.1.2](https://github.com/oclif/semantic-release/compare/v3.1.1...v3.1.2) (2020-06-26)
 
