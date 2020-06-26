@@ -5,7 +5,7 @@
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/oclif/semantic-release/issues",
   "dependencies": {
-    "@semantic-release/changelog": "^3.0.1",
+    "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/exec": "^3.3.1",
     "@semantic-release/git": "^7.0.5",
     "@semantic-release/github": "^5.2.6",
