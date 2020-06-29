@@ -1,6 +1,6 @@
 {
   "extends": "oclif",
   "rules": {
-    "node/shebang": false
+    "node/shebang": 0
   }
 }
