@@ -3,6 +3,6 @@
 const execa = require('execa')
 const npmRunPath = require('npm-run-path')
 
-module.exports = (cmd, args, opts = {}) => {
-  execa.commandSync(cmd, args, {env: npmRunPath.env(), stdio: 'inherit', ...opts})
+module.exports = (cmd, opts = {}) => {
+  execa.commandSync(cmd, {env: npmRunPath.env(), stdio: 'inherit', ...opts})
 }
