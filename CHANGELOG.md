@@ -1,3 +1,10 @@
+## [3.1.4](https://github.com/oclif/semantic-release/compare/v3.1.3...v3.1.4) (2020-06-29)
+
+
+### Bug Fixes
+
+* rm args from exec ([#49](https://github.com/oclif/semantic-release/issues/49)) ([2b76bce](https://github.com/oclif/semantic-release/commit/2b76bce))
+
 ## [3.1.3](https://github.com/oclif/semantic-release/compare/v3.1.2...v3.1.3) (2020-06-26)
 
 
