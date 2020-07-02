@@ -1,3 +1,10 @@
+## [3.1.5](https://github.com/oclif/semantic-release/compare/v3.1.4...v3.1.5) (2020-07-02)
+
+
+### Bug Fixes
+
+* use execa shell features true ([#51](https://github.com/oclif/semantic-release/issues/51)) ([d5cbcc8](https://github.com/oclif/semantic-release/commit/d5cbcc8))
+
 ## [3.1.4](https://github.com/oclif/semantic-release/compare/v3.1.3...v3.1.4) (2020-06-29)
 
 
