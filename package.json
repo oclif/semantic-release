@@ -35,7 +35,7 @@
   "repository": "oclif/semantic-release",
   "scripts": {
     "preversion": "echo preversion",
-    "version": "echo version",
+    "version": "echo version && echo \\&\\& test",
     "postversion": "echo postversion",
     "prepublishOnly": "echo prepublishOnly",
     "prepack": "echo prepack",
